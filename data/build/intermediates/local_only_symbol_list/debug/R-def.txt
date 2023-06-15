@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+drawable bio_message_icon
+drawable company_icon
+drawable location_icon

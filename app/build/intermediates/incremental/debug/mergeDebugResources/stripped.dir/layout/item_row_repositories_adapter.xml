@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="12dp"
+    android:background="#CEFAF6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CEFAF6"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="8dp">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/fav_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/txt_repository"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/like_heart_round_line_icon" />
+
+        <TextView
+            android:id="@+id/txt_repository"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="5dp"
+            android:textColor="#04675D"
+            android:text="Hafardev/repo-test1"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toRightOf="@id/fav_iv"
+            app:layout_constraintRight_toLeftOf="@id/delete_iv"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/delete_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="5dp"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toRightOf="@id/txt_repository"
+            app:layout_constraintRight_toLeftOf="@id/add_iv"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_dislike_button" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/add_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="5dp"
+            app:layout_constraintLeft_toRightOf="@id/delete_iv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/like_button_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,4 @@
+com.example.data
+drawable bio_message_icon
+drawable company_icon
+drawable location_icon

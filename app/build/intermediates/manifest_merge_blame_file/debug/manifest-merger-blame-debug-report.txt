@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mybasicapplication" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="24"
+6-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="33" />
+7-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:6:5-67
+9-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:6:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:7:5-79
+10-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:7:22-76
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:8:5-76
+11-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:8:22-73
+12
+13    <queries>
+13-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:24:5-28:15
+14        <package android:name="androidx.test.orchestrator" />
+14-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:25:9-62
+14-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:25:18-59
+15        <package android:name="androidx.test.services" />
+15-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:26:9-58
+15-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:26:18-55
+16        <package android:name="com.google.android.apps.common.testing.services" />
+16-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:27:9-83
+16-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:27:18-80
+17    </queries>
+18
+19    <application
+19-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:11:5-37:19
+20        android:name="com.example.mybasicapplication.UserApplication"
+20-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:20:9-42
+21        android:allowBackup="true"
+21-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:12:9-35
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:13:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:14:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:15:9-43
+27        android:label="@string/app_name"
+27-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:16:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:17:9-54
+29        android:supportsRtl="true"
+29-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:18:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.MyBasicApplication"
+31-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:19:9-56
+32        android:usesCleartextTraffic="true" >
+32-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:21:9-44
+33        <activity
+33-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:24:9-33:20
+34            android:name="com.example.mybasicapplication.view.activity.HomeMainActivity"
+34-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:25:13-59
+35            android:exported="true"
+35-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:26:13-36
+36            android:theme="@style/Theme.MyBasicApplication.NoActionBar" >
+36-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:27:13-72
+37            <intent-filter>
+37-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:29:17-69
+38-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:31:17-77
+40-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <uses-library
+44-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\26f388fc947cad633abe78c60096447a\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.window.extensions"
+45-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\26f388fc947cad633abe78c60096447a\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\26f388fc947cad633abe78c60096447a\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+47        <uses-library
+47-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\26f388fc947cad633abe78c60096447a\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+48            android:name="androidx.window.sidecar"
+48-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\26f388fc947cad633abe78c60096447a\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\26f388fc947cad633abe78c60096447a\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+50
+51        <service
+51-->[androidx.room:room-runtime:2.5.1] C:\Users\user\.gradle\caches\transforms-3\7f1dee74e33607c52aec88de96a41827\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.5.1] C:\Users\user\.gradle\caches\transforms-3\7f1dee74e33607c52aec88de96a41827\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.5.1] C:\Users\user\.gradle\caches\transforms-3\7f1dee74e33607c52aec88de96a41827\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.5.1] C:\Users\user\.gradle\caches\transforms-3\7f1dee74e33607c52aec88de96a41827\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.mybasicapplication.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\1dbcafbeb88bd6896e2d5504ab3d884b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\9a1a22aca7cb3a25be6e17cd6e1eb1e7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\9a1a22aca7cb3a25be6e17cd6e1eb1e7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\9a1a22aca7cb3a25be6e17cd6e1eb1e7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>

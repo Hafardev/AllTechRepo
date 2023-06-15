@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeMainFragment">
+    <fragment
+        android:id="@+id/homeMainFragment"
+        android:name="com.example.mybasicapplication.view.fragment.HomeMainFragment"
+        android:label="fragment_home_main"
+        tools:layout="@layout/fragment_home_main" >
+        <action
+            android:id="@+id/action_homeMainFragment_to_profilePlaceHolderFragment"
+            app:destination="@id/profilePlaceHolderFragment" />
+        <action
+            android:id="@+id/action_homeMainFragment_to_favoriteRepositoryFragment"
+            app:destination="@id/favoriteRepositoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repositoryPlaceholderFragment"
+        android:name="com.example.mybasicapplication.view.fragment.RepositoryPlaceholderFragment"
+        android:label="RepositoryPlaceholderFragment" />
+    <fragment
+        android:id="@+id/profilePlaceHolderFragment"
+        android:name="com.example.mybasicapplication.view.fragment.ProfilePlaceHolderFragment"
+        android:label="ProfilePlaceHolderFragment" />
+    <fragment
+        android:id="@+id/favoriteRepositoryFragment"
+        android:name="com.example.mybasicapplication.view.fragment.FavoriteRepositoryFragment"
+        android:label="FavoriteRepositoryFragment" />
+</navigation>

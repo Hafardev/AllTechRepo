@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/fragment_repository_placeholder.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/fragment_repository_placeholder.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/activity_favorite_repositories.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/activity_favorite_repositories.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/fragment_user_favorites.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/fragment_user_favorites.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/fragment_profile_placeholder.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/fragment_profile_placeholder.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/item_row_repositories_adapter.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/item_row_repositories_adapter.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/item_row_favorite_adapter.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/item_row_favorite_adapter.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/fragment_home_main.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/fragment_home_main.xml"
+    },
+    {
+        "merged": "com.example.mybasicapplication.app-mergeDebugResources-51:/layout/activity_main_home.xml",
+        "source": "com.example.mybasicapplication.app-main-54:/layout/activity_main_home.xml"
+    }
+]
