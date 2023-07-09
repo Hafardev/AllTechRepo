@@ -3,6 +3,6 @@
 3    package="com.example.domain" >
 4
 5    <uses-sdk android:minSdkVersion="24" />
-5-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\domain\src\main\AndroidManifest.xml
+5-->D:\WorkSpace\Android\ALLTechProject\domain\src\main\AndroidManifest.xml
 6
 7</manifest>

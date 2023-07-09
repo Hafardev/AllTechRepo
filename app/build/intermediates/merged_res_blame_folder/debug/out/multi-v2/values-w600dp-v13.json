@@ -4,7 +4,7 @@
             "outputFile": "com.example.mybasicapplication.app-mergeDebugResources-50:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\WorkSpace\\Android\\MyProjects\\FinalTelewbionApp\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "D:\\WorkSpace\\Android\\ALLTechProject\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

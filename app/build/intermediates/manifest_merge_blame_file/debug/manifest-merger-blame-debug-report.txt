@@ -4,19 +4,19 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="24"
-6-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml
+6-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="33" />
-7-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml
+7-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.INTERNET" />
-9-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:6:5-67
-9-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:6:22-64
+9-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:6:5-67
+9-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:6:22-64
 10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-10-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:7:5-79
-10-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:7:22-76
+10-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:7:5-79
+10-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:7:22-76
 11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-11-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:8:5-76
-11-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:8:22-73
+11-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:8:5-76
+11-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:8:22-73
 12
 13    <queries>
 13-->[androidx.test:runner:1.4.0] C:\Users\user\.gradle\caches\transforms-3\1b349c17c03cd173b4ffc2d8aedad22b\transformed\runner-1.4.0\AndroidManifest.xml:24:5-28:15
@@ -32,47 +32,47 @@
 17    </queries>
 18
 19    <application
-19-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:11:5-37:19
+19-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:11:5-37:19
 20        android:name="com.example.mybasicapplication.UserApplication"
-20-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:20:9-42
+20-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:20:9-42
 21        android:allowBackup="true"
-21-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:12:9-35
+21-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:12:9-35
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:13:9-65
+22-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:13:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:14:9-54
+25-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:14:9-54
 26        android:icon="@mipmap/ic_launcher"
-26-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:15:9-43
+26-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:15:9-43
 27        android:label="@string/app_name"
-27-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:16:9-41
+27-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:16:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:17:9-54
+28-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:17:9-54
 29        android:supportsRtl="true"
-29-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:18:9-35
+29-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:18:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.MyBasicApplication"
-31-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:19:9-56
+31-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:19:9-56
 32        android:usesCleartextTraffic="true" >
-32-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:21:9-44
+32-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:21:9-44
 33        <activity
-33-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:24:9-33:20
+33-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:24:9-33:20
 34            android:name="com.example.mybasicapplication.view.activity.HomeMainActivity"
-34-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:25:13-59
+34-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:25:13-59
 35            android:exported="true"
-35-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:26:13-36
+35-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:26:13-36
 36            android:theme="@style/Theme.MyBasicApplication.NoActionBar" >
-36-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:27:13-72
+36-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:27:13-72
 37            <intent-filter>
-37-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:28:13-32:29
+37-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:28:13-32:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:29:17-69
-38-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:29:25-66
+38-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:29:17-69
+38-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:29:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:31:17-77
-40-->D:\WorkSpace\Android\MyProjects\FinalTelewbionApp\app\src\main\AndroidManifest.xml:31:27-74
+40-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:31:17-77
+40-->D:\WorkSpace\Android\ALLTechProject\app\src\main\AndroidManifest.xml:31:27-74
 41            </intent-filter>
 42        </activity>
 43

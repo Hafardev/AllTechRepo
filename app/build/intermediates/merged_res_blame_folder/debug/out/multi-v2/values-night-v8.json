@@ -4,7 +4,7 @@
             "outputFile": "com.example.mybasicapplication.app-mergeDebugResources-50:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\WorkSpace\\Android\\MyProjects\\FinalTelewbionApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\WorkSpace\\Android\\ALLTechProject\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
